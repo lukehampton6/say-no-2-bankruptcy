@@ -1,0 +1,26 @@
+{
+  "name": "say-no-2-bankruptcy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukehampton6/say-no-2-bankruptcy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukehampton6/say-no-2-bankruptcy/issues"
+  },
+  "homepage": "https://github.com/lukehampton6/say-no-2-bankruptcy#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.2",
+    "morgan": "^1.10.0"
+  }
+}
