@@ -7,6 +7,7 @@ router.post("/api/transaction", ({body}, res) => {
       res.json(dbTransaction);
     })
     .catch(err => {
+      saveRecord(formData)
       res.status(404).json(err);
     });
 });
